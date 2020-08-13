@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "🅱️®️🅾️🅾️🅾️🅾️🅾",
+"productVersion": "0.1",
+"dataUrl": "Releases.data.unityweb",
+"wasmCodeUrl": "Releases.wasm.code.unityweb",
+"wasmFrameworkUrl": "Releases.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.2f1"
+}

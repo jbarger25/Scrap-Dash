@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/UI/Scenes/MainMenuScene.unity
+    guid: 1e74715deb45fa643916f9171fdadd41
+  - enabled: 1
+    path: Assets/UI/Scenes/MainMenuSceneMP.unity
+    guid: 9d8146636ea71ed4abf7f6413da9d1c3
+  - enabled: 0
+    path: Assets/Scenes/ShepardControllerTest.unity
+    guid: 4074e1696bde0e64d803fdc075d1ecac
+  - enabled: 0
+    path: Assets/Scenes/HUD_Test.unity
+    guid: 1c530da54788f0e4eb9a83e85f2225ca
+  - enabled: 1
+    path: Assets/UI/Scenes/CreditsScene.unity
+    guid: 84e859f799da8774dbc0503a56674f54
+  - enabled: 1
+    path: Assets/Scenes/GameSceneMP.unity
+    guid: 89c3049d897982c4fb9d065a9b4b369a
+  m_configObjects: {}
