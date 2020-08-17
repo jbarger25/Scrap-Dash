@@ -67,8 +67,8 @@ public class ShepardController : MonoBehaviourPunCallbacks
 
         if (characterController.isGrounded)
         {
-            movementDirection = (Vector3.forward * vertical) + (Vector3.right* horizontal);
-            movementDirection = transform.TransformDirection(movementDirection);
+            movementDirection = (new Vector3(0, 0, vertical)) + (new Vector3(horizontal, 0, 0));
+            //movementDirection = transform.TransformDirection(movementDirection);
             movementDirection *= movementSpeed;
         }
         movementDirection.y -= gravity * Time.deltaTime;
